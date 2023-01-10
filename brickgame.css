@@ -1,0 +1,88 @@
+body{
+   position: static;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header{
+    width:100%;
+    height: 50px;
+    background-color: black;
+    position: static;
+}
+
+.SCORE{
+    position: absolute;
+    right: 100px;
+    color: rgb(32, 253, 180);
+  }
+
+  .grid{
+    position: static;
+    height: 100%;
+    border: 20px solid rgb(32, 253, 180);
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 30px;
+  }
+
+ #red-1{
+    background-color: rgb(250, 22, 22);
+    margin: 2px;
+    box-shadow: 0 -1px 0 #fff, 2px 2px 2px rgba(206,89,55,0);
+ }
+
+ #yellow-1{
+    background-color: rgb(237, 241, 13);
+    margin: 2px;
+    box-shadow: 0 -1px 0 #fff, 2px 2px 2px rgba(206,89,55,0);
+ }
+
+ #green-1{
+    background-color: rgb(12, 176, 72);
+    margin: 2px;
+    box-shadow: 0 -1px 0 #fff, 2px 2px 2px rgba(206,89,55,0);
+ }
+
+ #blue-1{
+    background-color: rgb(40, 8, 169);
+    margin: 2px;
+    box-shadow: 0 -1px 0 #fff, 2px 2px 2px rgba(206,89,55,0);
+ }
+
+ .small-dot{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+ }
+
+ #white-1{
+    position: absolute;
+    left: 270px;
+    top: 165px;
+ }
+
+ #white-2{
+    position: absolute;
+    right: 270px;
+    top: 165px;
+ }
+
+ #white-3{
+    position: absolute;
+    left: 88px;
+    top: 342px;
+ }
+
+ #green-bar{
+    background-color: aquamarine;
+    width: 100;
+    height: 5px;
+    position: absolute;
+    left: 500px;
+    bottom: 2px;
+    box-shadow: 0 -1px 0 #fff, 2px 2px 2px rgba(206,89,55,0);
+ }
